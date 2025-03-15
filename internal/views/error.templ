@@ -1,0 +1,13 @@
+package views
+
+import "fmt"
+
+templ Error(status int, statusText string) {
+	@Layout("Oops!") {
+		<div class="flex h-screen space-x-3 justify-center items-center">
+			<span class="text-5xl text-orange-500 font-bold">{ fmt.Sprintf("%d", status) }</span>
+			<span class="text-6xl"> | </span>
+			<span class="text-4xl">{statusText}</span>
+		</div>
+	}
+}

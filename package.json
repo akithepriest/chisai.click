@@ -1,0 +1,25 @@
+{
+  "name": "chisai.click",
+  "version": "1.0.0",
+  "description": "Link personalizer and shortener",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akithepriest/chisai.click.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akithepriest/chisai.click/issues"
+  },
+  "homepage": "https://github.com/akithepriest/chisai.click#readme",
+  "dependencies": {
+    "@parcel/watcher": "^2.5.1",
+    "@tailwindcss/cli": "^4.0.12",
+    "tailwindcss": "^4.0.12"
+  }
+}
